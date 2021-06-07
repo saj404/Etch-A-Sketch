@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+
+    <main>
+        <div id="toggle-cntnr">
+            <div class="toggle-grp" id="hover-cntnr">
+                <button class="toggle" id="hover-toggle"></button>
+                <span>Hover / Click</span>
+            </div>
+            <div class="toggle-grp" id="border-cntnr">
+                <button class="toggle" id="border-toggle"></button>
+                <span>Border Toggle</span>
+            </div>
+            <div class="toggle-grp" id="reset-cntnr">
+                <button class="toggle" id="reset-toggle"></button>
+                <span>Reset Grid</span>
+            </div>
+        </div>
+    
+        <div id="sketch-cntnr"></div>
+    
+        <div id="slider-cntnr">
+            <span>16</span>
+            <input id="grid-slider" type="range" min="16" max="64" step="1" value="16">
+            <span>64</span>
+            <p>Grid Size: <span id="grid-size">16</span></p>
+        </div>
+    </main>
+
+    <div id="color-selection-cntnr">
+        <div class="toggle-grp-color">
+            <button class="toggle toggle-on" id="black-toggle" data-option="black"></button>
+            <span>Black</span>
+        </div>
+        <div class="toggle-grp-color">
+            <button class="toggle" id="gradual-toggle" data-option="gradual"></button>
+            <span>Gradual Black</span>
+        </div>
+        <div class="toggle-grp-color">
+            <button class="toggle" id="random-toggle" data-option="random"></button>
+            <span>Random RGB</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
