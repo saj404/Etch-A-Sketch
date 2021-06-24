@@ -1,7 +1,7 @@
 # Etch-A-Sketch played through your browser!
 <sub>Uploaded June 7, 2021, by: Adonis Santos</sub>
 
-This is a project made to complete the lesson at: https://www.theodinproject.com/
+This is a project made to complete the lesson at: ```https://www.theodinproject.com/```
 
 Simulating the old etch-a-sketch game that you play during your childhood with additional options you can choose.
 
