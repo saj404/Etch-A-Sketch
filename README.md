@@ -1,5 +1,5 @@
 # Etch-A-Sketch played through your browser!
-<sub>Uploaded June 7, 2021, by: Adonis Santos</sub>
+Uploaded June 7, 2021 <sub>by: Adonis Santos</sub>
 
 This is a project made to complete the lesson at: ```https://www.theodinproject.com/```
 
